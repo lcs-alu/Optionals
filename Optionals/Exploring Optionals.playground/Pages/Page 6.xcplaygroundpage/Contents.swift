@@ -25,8 +25,13 @@
  
  */
 // Type the code below this line
-
-
+var day0fWeek : String? = "Monday"
+if day0fWeek != nil {
+    let day = day0fWeek!
+    print("The day is / (day))
+} else {
+    print("no day was provided")
+}
 /*:
  
  Look closely at the output – **how does it differ from the output you obtained on Page 5**?
